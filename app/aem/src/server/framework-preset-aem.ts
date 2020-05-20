@@ -1,7 +1,7 @@
 import * as path from 'path';
 import { Configuration } from 'webpack';
-import runtimeVariables from '../client/preview/helpers/runtime-variables';
 import { createTemplateLoader } from '@adobe/htlengine';
+import runtimeVariables from '../client/preview/helpers/runtime-variables';
 import options from './options';
 
 const modGen = (baseDir, varName, id) => {

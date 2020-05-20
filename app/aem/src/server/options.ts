@@ -9,7 +9,7 @@ const jcrRoots = [];
 
 // todo: add current project's CWD as project root !?!
 
-global['AEMRegisterJcrRoot'] = (root) => {
+global.AEMRegisterJcrRoot = root => {
   if (Array.isArray(root)) {
     jcrRoots.push(...root);
   } else {
